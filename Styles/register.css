@@ -404,7 +404,7 @@ span{
     #form input{
         margin-right: 20px;
         margin-left: 20px;
-        padding-right: 120px;
+        padding-right: 100px;
     }
     .right span{
         top: 38px;
@@ -412,7 +412,7 @@ span{
     }
     #comments{
         margin: 30px;
-        padding-right: 70px;
+        padding-right: 50px;
         margin-bottom: 10px;
     }
     #team{
