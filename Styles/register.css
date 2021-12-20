@@ -253,6 +253,8 @@ span{
     padding-bottom: 7px;
     padding-top: 7px;
     font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .form input::placeholder{
     opacity: 0;
@@ -398,5 +400,22 @@ span{
     }
     #home{
         padding-top: 150px;
+    }
+    #form input{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-right: 120px;
+    }
+    .right span{
+        top: 38px;
+        left: 27px;
+    }
+    #comments{
+        margin: 30px;
+        padding-right: 70px;
+        margin-bottom: 10px;
+    }
+    #team{
+        padding-right: 150px;
     }
 }
