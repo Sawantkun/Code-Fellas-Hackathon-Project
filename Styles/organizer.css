@@ -138,6 +138,7 @@ span{
     padding-bottom: 0;
     color: #293F50;
     font-weight: 600;
+    width: 100%;
 }
 .aclub{
     display: grid;
@@ -336,7 +337,6 @@ span{
 }
 
 @media screen and (max-width:480px) {
-    @media screen and (max-width:500px){
         #nav{
             display: flex;
             flex-direction: column;
@@ -352,7 +352,6 @@ span{
         }
         #about{
             align-items: center;
-            margin: 20px;
         }
         #top{
             padding: 20px;
