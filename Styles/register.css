@@ -385,13 +385,6 @@ span{
 }
 
 @media screen and (max-width:500px) {
-    .form input:focus + .right span{
-    top: 22px;
-    left: 20px;
-    background-color: #ddd;
-    padding-left:5px;
-    padding-right:5px;
-}
     #nav{
         display: flex;
         flex-direction: column;
@@ -415,7 +408,7 @@ span{
     }
     .right span{
         top: 38px;
-        left: 27px;
+        left: 30px;
     }
     #comments{
         margin: 30px;
