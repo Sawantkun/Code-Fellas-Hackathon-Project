@@ -385,7 +385,7 @@ span{
 }
 
 @media screen and (max-width:500px) {
-    .form input:focus + span{
+    .form input:focus + .right span{
     top: 22px;
     left: 20px;
     background-color: #ddd;
