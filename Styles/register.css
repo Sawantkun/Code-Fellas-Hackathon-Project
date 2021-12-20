@@ -228,7 +228,7 @@ span{
 .form input:focus + span,
 .form input:not(:placeholder-shown) + span{
     top: 22px;
-    left: 14px;
+    left: 20px;
     background-color: #ddd;
     padding-left:5px;
     padding-right:5px;
@@ -388,7 +388,7 @@ span{
     .form input:focus + span,
     .form input:not(:placeholder-shown) + span{
     top: 22px;
-    left: 14px;
+    left: 20px;
     background-color: #ddd;
     padding-left:5px;
     padding-right:5px;
