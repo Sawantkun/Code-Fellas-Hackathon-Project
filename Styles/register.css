@@ -385,6 +385,14 @@ span{
 }
 
 @media screen and (max-width:500px) {
+    .form input:focus + span,
+    .form input:not(:placeholder-shown) + span{
+    top: 22px;
+    left: 14px;
+    background-color: #ddd;
+    padding-left:5px;
+    padding-right:5px;
+}
     #nav{
         display: flex;
         flex-direction: column;
@@ -418,14 +426,4 @@ span{
     #team{
         padding-right: 150px;
     }
-}
-@media screen and (max-width:400px){
-    .form input:focus + span,
-.form input:not(:placeholder-shown) + span{
-    top: 22px;
-    left: 14px;
-    background-color: #ddd;
-    padding-left:5px;
-    padding-right:5px;
-}
 }
